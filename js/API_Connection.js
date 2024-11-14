@@ -5,5 +5,9 @@ async function getCars() {
 
   const parseConnection = await connection.json();
 
-  return parseConnection();
+  return parseConnection;
 }
+
+export const APIConnection = {
+  getCars,
+};

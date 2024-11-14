@@ -1,0 +1,73 @@
+/*Sección del Formulario*/
+
+.form-section {
+  width: 100%;
+}
+
+.form-section_title {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.form {
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.input_tag {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.input {
+  background: #000;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  border: solid 1.5px #fbff01fc;
+}
+
+.input::placeholder {
+  color: #878585;
+  font-weight: bold;
+}
+
+.buttons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form_button {
+  width: 6rem;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: white;
+  font-size: 1rem;
+}
+
+.form_button:hover {
+  background-color: #8e8d8d;
+  color: #000;
+  font-size: 1rem;
+  border: solid thin #fbff01fc;
+  width: 6.2rem;
+  padding: 10px 12px;
+}

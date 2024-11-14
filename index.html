@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/form-styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <div class="logo-image">
+          <img src="images/ferrari_logo_white.webp" alt="logo-ferrari" />
+        </div>
+        <div class="logo-name">
+          <img src="images/ferrari.webp" alt="Nombre del logo" />
+        </div>
+      </div>
+      <div class="header-description">
+        <a class="header-description-text" href="">AluraGeek Cars</a>
+      </div>
+    </header>
+    <h1 class="main-title">AluraGeek</h1>
+    <main class="main-content">
+      <section class="cards-section">
+        <h2 class="cards-section_title">Mis Autos</h2>
+        <ul class="cards-list"></ul>
+      </section>
+      <section class="form-section">
+        <h2 class="form-section_title">Agregar Ferrari</h2>
+        <form class="form">
+          <div class="form-input_container">
+            <label for="name" class="input_tag">Nombre del Ferrari</label>
+            <input
+              class="input"
+              name="name"
+              placeholder="Ejemplo: Ferrari F50"
+              id="name"
+              data-name
+              required
+            />
+          </div>
+
+          <div class="form-input_container">
+            <label class="input_tag" for="price">Precio</label>
+            <input
+              class="input"
+              name="price"
+              placeholder="Ejemplo: 250 000"
+              data-price
+              require
+            />
+          </div>
+          <div class="form-input_container">
+            <label for="image" class="input_tag">URL de la imagen</label>
+            <input
+              class="input"
+              name="image"
+              id="image"
+              placeholder="Inserta la URL de la imagen"
+            />
+          </div>
+          <div class="buttons">
+            <input type="submit" class="form_button" value="Enviar" />
+            <input type="reset" class="form_button" value="Limpiar" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <template id="template-card">
+      <figure class="card">
+        <img src="" alt="" />
+        <figcaption>
+          <p class="title"></p>
+          <p class="price"></p>
+        </figcaption>
+      </figure>
+    </template>
+    <script type="module" src="./js/showCards.js"></script>
+  </body>
+</html>

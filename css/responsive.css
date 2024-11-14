@@ -1,0 +1,78 @@
+/* Aplicar box-sizing globalmente */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Media query para tablets grandes y laptops */
+@media (max-width: 1199px) {
+  .main-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .cards-section,
+  .form-section {
+    width: 100%;
+  }
+
+  .form-section {
+    padding: 0 10px; /* Añadir algo de padding para dispositivos más pequeños */
+  }
+}
+
+/* Ajustes específicos para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column-reverse;
+    gap: 20px; /* Asegura un espacio entre secciones */
+  }
+
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .form {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .cards-list {
+    gap: 15px;
+    width: 100%;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+
+/* Ajustes adicionales para pantallas ultra pequeñas */
+@media (max-width: 400px) {
+  .main-content {
+    gap: 25px;
+  }
+  .buttons {
+    gap: 4px;
+  }
+  .form_button {
+    padding: 10px 10px;
+  }
+}

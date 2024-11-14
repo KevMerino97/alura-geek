@@ -3,13 +3,13 @@
     {
       "id": 1,
       "name": "Ferrari J 50",
-      "image": "https://github.com/KevMerino97/alura-geek/blob/main/images/ferrari-j50.webp",
+      "url": "https://raw.githubusercontent.com/KevMerino97/alura-geek/refs/heads/main/images/ferrari-j50.webp",
       "price": "3 000 000"
     },
     {
       "id": 2,
       "name": "Ferrari FXX-K Evo",
-      "image": ""
+      "url": "https://raw.githubusercontent.com/KevMerino97/alura-geek/refs/heads/main/images/ferrari-fxx-k-evo.webp",
       "price": "3 000 000"
     }
   ]
