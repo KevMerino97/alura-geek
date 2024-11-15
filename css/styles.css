@@ -148,13 +148,19 @@ body {
 }
 
 .delete {
-  max-width: 20px;
+  width: auto;
   cursor: pointer;
-  height: 15px;
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2px;
+  border: solid 1px #ffff00;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 200;
+  font-size: 14px;
+  color: #dddcdc;
 }
 
 .delete img {
@@ -162,8 +168,8 @@ body {
   margin: 0;
 }
 
-.delete p {
-  font-weight: 200;
-  font-size: 14px;
-  color: #dddcdc;
+.delete:hover {
+  background-color: #ffff00;
+  color: #000;
+  border: solid 1px #ff0000;
 }
