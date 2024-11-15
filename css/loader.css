@@ -1,0 +1,39 @@
+/*Loader*/
+
+.loader {
+  display: flex;
+  justify-content: center; /*Se centra en el eje X*/
+  align-items: center; /*Se centra en el eje Y*/
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  opacity: 1;
+  transition: opacity 0.5s ease; /*Hago un efecto suave de desvanecimiento cuando ocurra un cambio en la propiedad  de la opacidad, la duración de este cambio es de 0.5s, ease genera  ese efecto de suavidad en la transición entre opacity 0 y opacity 1*/
+}
+
+/*Esta clase se agrega al  loader mediante JS para iniciar la animación de desvanecimiento*/
+.loader.fade-out {
+  opacity: 0; /*Hago que se desvanezca el loader*/
+}
+
+.loader img {
+  animation: blink 1s infinite;
+  height: 95px;
+  width: auto;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
