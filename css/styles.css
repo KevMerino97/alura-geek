@@ -100,7 +100,7 @@ body {
   border: 2px solid #fbff01fc;
   border-radius: 10px;
   padding: 16px;
-  background-color: #adadad;
+  background-color: #272626;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 270px;
   transition: transform 0.3s;
@@ -121,26 +121,49 @@ body {
 /* Estilos para figcaption */
 .card figcaption {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  gap: 7px;
 }
 
 /* Estilos para el título y el precio */
 .title {
   font-size: 1rem;
   font-weight: bold;
-  color: #333;
+  color: #dddcdc;
 }
 
 .price {
   font-size: 0.8rem;
   font-weight: normal;
-  color: #666;
+  color: #e7e6e6;
 }
 
 .price::before {
   content: "$";
   margin-right: 3px;
   font-weight: bold;
+}
+
+.delete {
+  max-width: 20px;
+  cursor: pointer;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.delete img {
+  height: 14px;
+  margin: 0;
+}
+
+.delete p {
+  font-weight: 200;
+  font-size: 14px;
+  color: #dddcdc;
 }
