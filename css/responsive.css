@@ -7,10 +7,13 @@
 
 /* Media query para tablets grandes y laptops */
 @media (max-width: 1199px) {
+  .main-title {
+    margin-bottom: 1rem;
+  }
+
   .main-content {
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: center;
     gap: 20px;
   }
 
@@ -28,6 +31,8 @@
 @media (max-width: 768px) {
   .main-content {
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
     gap: 20px; /* Asegura un espacio entre secciones */
   }
 
@@ -57,10 +62,12 @@
   .cards-list {
     gap: 15px;
     width: 100%;
+    overflow-y: auto;
+    height: 50vh;
   }
 
   .card {
-    max-width: 100%;
+    max-width: 210px;
   }
 }
 

@@ -61,15 +61,13 @@ body {
   flex-direction: row; /* Por defecto */
   justify-content: space-between; /* Distribuir espacio entre los hijos */
   align-items: flex-start; /* Alinear secciones arriba */
-  gap: 20px; /* Añade un espacio entre las secciones */
+  gap: 10px; /* Añade un espacio entre las secciones */
 }
 
 /*Sección de las cards*/
 
 .cards-section {
-  height: auto; /* Permitir que crezca en base al contenido */
   width: 100%;
-  padding: 1rem;
 }
 
 .cards-section_title {
@@ -85,6 +83,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  gap: 20px;
+  height: 60vh;
+  overflow: auto;
 }
 
 .cards-section_title {
@@ -101,7 +102,7 @@ body {
   padding: 16px;
   background-color: #adadad;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 300px;
+  max-width: 270px;
   transition: transform 0.3s;
 }
 
@@ -127,13 +128,13 @@ body {
 
 /* Estilos para el título y el precio */
 .title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #333;
 }
 
 .price {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: normal;
   color: #666;
 }

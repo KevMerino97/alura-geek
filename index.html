@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/form-styles.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/loader.css" />
-    <script src="./js/ferrari_loader.js"></script>
+    <script src="./js/ferrariLoader.js"></script>
   </head>
   <body>
     <div class="loader">
@@ -31,12 +31,12 @@
     <h1 class="main-title">AluraGeek</h1>
     <main class="main-content">
       <section class="cards-section">
-        <h2 class="cards-section_title">Mis Autos</h2>
+        <h2 class="cards-section_title">Mis autos<h2>
         <ul class="cards-list"></ul>
       </section>
       <section class="form-section">
         <h2 class="form-section_title">Agregar Ferrari</h2>
-        <form class="form">
+        <form class="form" data-form>
           <div class="form-input_container">
             <label for="name" class="input_tag">Nombre del Ferrari</label>
             <input
@@ -54,6 +54,7 @@
             <input
               class="input"
               name="price"
+              id="price"
               placeholder="Ejemplo: 250 000"
               data-price
               require
@@ -66,6 +67,7 @@
               name="image"
               id="image"
               placeholder="Inserta la URL de la imagen"
+              data-url
             />
           </div>
           <div class="buttons">
@@ -85,5 +87,6 @@
       </figure>
     </template>
     <script type="module" src="./js/showCars.js"></script>
+    <script type="module" src="./js/createCar.js"></script>
   </body>
 </html>

@@ -11,6 +11,30 @@
       "name": "Ferrari FXX-K Evo",
       "url": "https://raw.githubusercontent.com/KevMerino97/alura-geek/refs/heads/main/images/ferrari-fxx-k-evo.webp",
       "price": "3 000 000"
+    },
+    {
+      "id": "0bba",
+      "name": "Ferrari F40",
+      "url": "https://sothebys-com.brightspotcdn.com/dims4/default/755bab3/2147483647/strip/true/crop/1920x1440+0+0/resize/1154x865!/format/webp/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F54%2Fd1%2F5f990e7c49c093367658d61cc0d5%2Fferrari-f40-1.jpg",
+      "price": "1 500 000"
+    },
+    {
+      "id": "aaca",
+      "name": "Ferrari F40",
+      "url": "https://sothebys-com.brightspotcdn.com/dims4/default/755bab3/2147483647/strip/true/crop/1920x1440+0+0/resize/1154x865!/format/webp/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F54%2Fd1%2F5f990e7c49c093367658d61cc0d5%2Fferrari-f40-1.jpg",
+      "price": "1 500 000"
+    },
+    {
+      "id": "0079",
+      "name": "Ferrari F40",
+      "url": "https://sothebys-com.brightspotcdn.com/dims4/default/755bab3/2147483647/strip/true/crop/1920x1440+0+0/resize/1154x865!/format/webp/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F54%2Fd1%2F5f990e7c49c093367658d61cc0d5%2Fferrari-f40-1.jpg",
+      "price": "1 500 000"
+    },
+    {
+      "id": "f40c",
+      "name": "Ferrari F40",
+      "url": "https://sothebys-com.brightspotcdn.com/dims4/default/755bab3/2147483647/strip/true/crop/1920x1440+0+0/resize/1154x865!/format/webp/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F54%2Fd1%2F5f990e7c49c093367658d61cc0d5%2Fferrari-f40-1.jpg",
+      "price": "1 500 000"
     }
   ]
 }
