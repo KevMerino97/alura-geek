@@ -69,6 +69,13 @@
   .card {
     max-width: 210px;
   }
+
+  .buttons {
+    gap: 4px;
+  }
+  .form_button {
+    padding: 10px 10px;
+  }
 }
 
 /* Ajustes adicionales para pantallas ultra pequeñas */

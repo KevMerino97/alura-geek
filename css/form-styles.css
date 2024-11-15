@@ -54,20 +54,21 @@
 }
 
 .form_button {
-  width: 6rem;
+  width: auto;
   cursor: pointer;
   background-color: black;
   border-radius: 10px;
   padding: 10px 12px;
   color: white;
   font-size: 1rem;
+  border: solid thin #ffff00;
 }
 
 .form_button:hover {
-  background-color: #8e8d8d;
+  background-color: #ffff00;
   color: #000;
   font-size: 1rem;
-  border: solid thin #fbff01fc;
-  width: 6.2rem;
+  border: solid thin #000;
+  width: auto;
   padding: 10px 12px;
 }
