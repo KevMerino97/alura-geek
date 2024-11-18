@@ -21,6 +21,7 @@ async function getCars() {
     return parseConnection;
   } catch (error) {
     console.log(`Error de conexión ${error}`);
+    $title.textContent = "Error de conexión";
   }
 }
 
@@ -43,7 +44,24 @@ async function sendCar(name, url, price) {
   return parseConnection;
 }
 
+async function removeCar(id) {
+  try {
+    const connection = await fetch(`${$url}/${id}`, {
+      method: "DELETE",
+    });
+
+    if (!connection.ok) {
+      throw new Error(`No se pudo eliminar el auto con ID: ${id}`);
+    }
+
+    console.log(`Auto con ID ${id} eliminado correctamente`);
+  } catch (error) {
+    console.error("Error al eliminar el auto:", error);
+  }
+}
+
 export const APIConnection = {
   getCars,
   sendCar,
+  removeCar,
 };
