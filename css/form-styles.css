@@ -1,4 +1,11 @@
 /*Sección del Formulario*/
+:root {
+  --main-text-color: #fff;
+  --black-bg: #000;
+  --yellow-border: #fbff01fc;
+  --placeholder: #878585;
+  --black-border: #000;
+}
 
 .form-section {
   width: 100%;
@@ -7,7 +14,7 @@
 .form-section_title {
   text-align: center;
   font-size: 2rem;
-  color: #fff;
+  color: var(--main-text-color);
 }
 
 .form {
@@ -29,20 +36,20 @@
 }
 
 .input_tag {
-  color: #fff;
+  color: var(--main-text-color);
   font-size: 1.2rem;
 }
 
 .input {
-  background: #000;
+  background: var(--black-bg);
   border-radius: 10px;
   padding: 10px;
-  color: #fff;
-  border: solid 1.5px #fbff01fc;
+  color: var(--main-text-color);
+  border: solid 1.5px var(--yellow-border);
 }
 
 .input::placeholder {
-  color: #878585;
+  color: var(--placeholder);
   font-weight: bold;
 }
 
@@ -56,19 +63,21 @@
 .form_button {
   width: auto;
   cursor: pointer;
-  background-color: black;
+  background-color: var(--black-bg);
   border-radius: 10px;
   padding: 10px 12px;
   color: white;
   font-size: 1rem;
-  border: solid thin #ffff00;
+  font-weight: bold;
+  border: solid thin var(--yellow-border);
 }
 
 .form_button:hover {
-  background-color: #ffff00;
+  background-color: var(--yellow-border);
   color: #000;
   font-size: 1rem;
-  border: solid thin #000;
+  font-weight: bold;
+  border: solid thin var(--black-border);
   width: auto;
   padding: 10px 12px;
 }
