@@ -17,6 +17,24 @@
       "name": "Ferrari F40",
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/F40_Ferrari_20090509.jpg",
       "price": "1 500 000"
+    },
+    {
+      "id": "557f",
+      "name": "Ferrari F50",
+      "url": "https://espirituracer.com/archivos/2023/10/ferrari-f50-1.webp",
+      "price": "475 000"
+    },
+    {
+      "id": "674d",
+      "name": "Ferrari LaFerrari",
+      "url": "https://oasislimo.b-cdn.net/wp-content/uploads/2024/03/ferreri-front.jpg",
+      "price": "2 500 00"
+    },
+    {
+      "id": "ef95",
+      "name": "Ferrari Portofino M",
+      "url": "https://ferrari-cdn.thron.com/delivery/public/image/ferrari/57f77463-4160-4dd2-b77d-4f7e67906278/3zayf6/std/0x640/03-ferrari-portofino-m-dws?quality=auto-high&format=auto",
+      "price": "215 600"
     }
   ]
 }
