@@ -69,3 +69,8 @@ Para visualizar la página, dentro de Visual Studio Code, asegurate de tener la 
 - Debes levantar el proyecto con Live Server, si abres index.html sin la extensión, el loader jamás desaparecerá.
 
 - El loader tiene una duración predeterminada de 1.5 segundos para simular que el usuario no pueda interactuar con la interfaz mientras los datos de la página no estén cargados por completo.
+
+### Autor:
+
+- Kevin Merino <br>
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KevMerino97)
