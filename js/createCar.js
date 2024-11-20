@@ -13,7 +13,8 @@ async function createCar(e) {
     await APIConnection.sendCar(name, url, price);
     alert("Envio concluido con éxito");
   } catch (error) {
-    alert(error);
+    alert("Error al tratar de enviar la tarjeta");
+    console.log(error);
   }
 }
 
